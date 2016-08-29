@@ -70,7 +70,7 @@ SampleDynamicResource sample_counter(&logger,"123","4567",true);			// "true" -> 
 
 // LCD Resource
 #include "mbed-endpoint-resources/LCDResource.h"
-LCDResource lcd(&logger,"312","1");											// LCD Resoruce
+LCDResource lcd(&logger,"312","1");							// LCD Resource
 
 // Light Resource
 #include "mbed-endpoint-resources/LightResource.h"
@@ -78,7 +78,7 @@ LightResource light(&logger,"311","5850");
 
 // Temperature Resource
 #include "mbed-endpoint-resources/TemperatureResource.h"
-TemperatureResource temperature(&logger,"303","5700",true);         		// "true" --> resource is observable
+TemperatureResource temperature(&logger,"303","5700",true);         			// "true" --> resource is observable
 
 // Accelerometer Resource
 #include "mbed-endpoint-resources/AccelerometerResource.h"
