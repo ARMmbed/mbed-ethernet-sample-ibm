@@ -14,9 +14,9 @@ Example (Linux):
 
 Once installed:
 
- % git clone https://github.com/ARMmbed/mbed-ethernet-sample-ibm-blockchain
+ % git clone https://github.com/ARMmbed/mbed-ethernet-sample-ibm
 
- % cd mbed-ethernet-sample-ibm-blockchain
+ % cd mbed-ethernet-sample-ibm
 
  % mbed deploy
 
@@ -28,6 +28,6 @@ Once installed:
 
 The compiled binary will be found in here:
 
- % cd .build/K64F/GCC_ARM/mbed-ethernet-sample-ibm-blockchain.bin
+ % cd .build/K64F/GCC_ARM/mbed-ethernet-sample-ibm.bin
 
 Lastly, copy the "bin" file to your mbed device and reset the device
