@@ -113,7 +113,7 @@ Connector::Options *configure_endpoint(Connector::OptionsBuilder &config)
         .addResource(&lcd)
         .addResource(&light)
         .addResource(&temperature,8000) 			// observe every 8 seconds 
-        .addResource(&accel,13000)				// observe every 13 seconds 						
+        .addResource(&accel,(bool)false)			// on demand observation 						
                    
         // finalize the configuration...
         .build();
